@@ -3,7 +3,7 @@ let arr2 = ['b', 'a', 'c', 'd', 'e'];
 console.log(arr)
 console.log(arr.length) // 11
 console.log(arr.pop()) // it will pop last element from the array
-console.log(arr.push()) // it will push element at the starting position
+console.log(arr.push()) // it will push element at the end position
 console.log(arr.shift()) // it will remove first element from the array and return shifted element
 console.log(arr.unshift('Grapes')) // method adds a new element to an array (at the beginning), and "unshifts" older elements
 console.log(arr.splice(10, 1, 11)) // The splice() method can be used to add new items to an array and it is return deleted items
